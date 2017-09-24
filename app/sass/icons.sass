@@ -1,0 +1,33 @@
+@import "mixins/mixins"
+
+.fri
+	display: inline-block
+	vertical-align: middle
+
+.fri-logo
+	+sprite(logo)
+
+.fri-arrow-dark
+	+sprite(arrow-dark)
+
+.nav__back
+	> a
+		&:hover
+			.fri-arrow-dark
+				+sprite(arrow-yellow)
+
+.komatsu-logo
+	+sprite(komatsu-logo)
+
+.komatsu-wrapper
+
+	.pagenavi .pagenavi__post.is-left a
+		&:hover
+			&::before
+				+sprite(arrow-left-yellow)
+
+	.pagenavi .pagenavi__post.is-right a
+		&:hover
+			&::before
+				transform: rotate(180deg)
+				+sprite(arrow-left-yellow)

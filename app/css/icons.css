@@ -1,0 +1,70 @@
+.fri {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fri-logo {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -135px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 282px;
+}
+
+.fri-arrow-dark {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 21px;
+  width: 42px;
+}
+
+.nav__back > a:hover .fri-arrow-dark {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -73px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 21px;
+  width: 42px;
+}
+
+.komatsu-logo {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -99px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 31px;
+  width: 168px;
+}
+
+.komatsu-wrapper .pagenavi .pagenavi__post.is-left a:hover::before {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -26px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 42px;
+  width: 21px;
+}
+.komatsu-wrapper .pagenavi .pagenavi__post.is-right a:hover::before {
+  transform: rotate(180deg);
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -26px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 42px;
+  width: 21px;
+}
